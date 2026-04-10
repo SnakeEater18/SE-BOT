@@ -32,7 +32,7 @@ warnings.filterwarnings('ignore')
 #  CONFIGURACIÓN — solo cambia estas líneas
 # ═══════════════════════════════════════════════════════
 SYMBOL       = 'SIREN/USDT'
-WEBHOOK      = 'https://discord.com/api/webhooks/1487182904625860638/s53ZuZp7ACvfkGc3JceGhWu6Eit3OVD8szvKzgLx3hdBKy92AvEvW87eYzmQMqPPEFBY'
+WEBHOOK      = ''
 AI_KEY       = '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'
 AI_MODEL     = 'qwen/qwen3.6-plus:free'
 LOG_FILE     = 'bitacora_v94_paper.csv'
@@ -46,8 +46,8 @@ MAX_DD_PCT   = 0.20    # Máx pérdida diaria (paper: solo alerta)
 COMISION     = 0.0005  # 0.05% por lado Binance Futures (0.1% por trade completo)
 
 exchange = ccxt.binance({
-    'apiKey': 'VNrzXnfiSICmE7wcTsKO5NHGDcn9K1qMO8V9EHVT2kqG13AlIoMgpRwbyGjaEFAE',
-    'secret': 'ka3pmBY0HBbkGwiRWg7928Z4IIwizm8fsYatyktpniX78yyzo7iQW3SWZdiXc0tw',
+    'apiKey': '',
+    'secret': '',
     'options': {'defaultType': 'future'},
     'enableRateLimit': True
 })
