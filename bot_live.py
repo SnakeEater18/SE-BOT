@@ -33,7 +33,7 @@ warnings.filterwarnings('ignore')
 # ═══════════════════════════════════════════════════════
 SYMBOL       = 'SIREN/USDT'
 WEBHOOK      = ''
-AI_KEY       = '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'
+AI_KEY       = ''
 AI_MODEL     = 'qwen/qwen3.6-plus:free'
 LOG_FILE     = 'bitacora_v94_paper.csv'
 ML_FILE      = 'siren_ml_model.pkl'
